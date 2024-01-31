@@ -3,8 +3,8 @@ import 'dart:developer';
 import 'package:flutter/material.dart';
 import 'package:camera/camera.dart';
 import 'package:flutter_tflite/flutter_tflite.dart';
-import 'package:object_detection/detect_screen.dart';
 
+import 'detect_screen.dart';
 import 'models.dart';
 
 class HomePage extends StatefulWidget {
@@ -79,7 +79,7 @@ class _HomePageState extends State<HomePage> {
               child: const Text(ssd),
               onPressed: () => onSelect(ssd),
             ),
-            ElevatedButton(
+            /*ElevatedButton(
               child: const Text(yolo),
               onPressed: () => onSelect(yolo),
             ),
@@ -90,7 +90,7 @@ class _HomePageState extends State<HomePage> {
             ElevatedButton(
               child: const Text(posenet),
               onPressed: () => onSelect(posenet),
-            ),
+            ),*/
           ],
         ),
       ),
